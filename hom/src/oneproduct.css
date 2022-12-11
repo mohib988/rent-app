@@ -1,0 +1,354 @@
+.oneproduct{
+    margin-top: 10px;
+display: grid;
+grid-template-rows: 50vh 5vh  7vh ;
+grid-template-columns: 42vw 25vw 10vw 10vw;
+/* align-self: center; */
+column-gap: 5px;
+/* justify-content: center; */
+
+
+}
+
+
+.oneproduct img{
+
+height: 50vh;
+width: 40vw;
+
+}
+
+
+#p1{
+
+    font-size: 2em;
+}
+
+.oneproduct .p1,.p2{
+    
+    justify-self: center;
+    align-self: center;
+    font-weight: 500;
+    
+}
+.oneproduct button{
+    width: 10vw;
+    height: 40px;
+   /* grid-row: 1; */
+    border: 2px solid black;
+    background:linear-gradient(to right,rgb(34, 34, 255),rgba(128, 31, 128, 0.925));
+    color: aliceblue;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: 2220ms;
+    
+}
+.oneproduct button:hover{
+        background:linear-gradient(to right,rgb(167, 0, 167),rgb(25, 25, 255));
+        /* b */
+
+    }
+
+.rentnow{
+grid-row: 1;
+grid-column: 3;
+}
+.addtolater{
+grid-row: 1;
+grid-column: 4;
+}
+.textboxcontainer{
+    
+display: flex;
+
+
+}
+.textboxcontainer span{
+    /* margin-top: 8px; */
+    align-self: center;
+    /* margin-left: 10px; */
+    font-size: 1em;
+}
+
+.textboxcontainer textarea{
+    border-radius: 10px;
+    /* margin: auto; */
+padding-top: 1em;
+height: 4em;
+width: 30em
+/* scrollbar-width: 1px;
+scrollbar-color: black; */
+}
+
+textarea::-webkit-scrollbar{
+    width: 5px;
+    color: transparent;
+    background-color: transparent;
+}
+    .textboxcontainer 
+    .commentbutton{
+        /* margin-top: 1em; */
+        align-self: center;
+        /* justify-content: center; */
+    }
+
+    .comment{
+        margin: auto 10px;
+        display:inline-block;
+        /* margin-top: 10px; */
+        background-color: rgba(110, 110, 109, 0.804);
+        height: 30vh;
+width: 50vw;
+border-radius: 20px;
+/* overflow: hidden; */
+overflow-y: auto;
+}
+
+.comment .table{
+    width: 100%;
+
+}
+
+.comment table .row-one {
+    width: 50vw;
+    margin: 0px auto;
+    border:1px solid rgba(0, 0, 0, 0.411);
+    border-radius: 2px ;
+    border-left: transparent;
+    border-collapse: collapse;
+    /* border-collapse: collapse; */
+    text-align: center;
+    
+}
+.comment table .row-two {
+    background-color:rgba(192, 160, 117, 0.922);
+    padding-left: 2%;
+
+}
+
+.comment::-webkit-scrollbar{
+    width: 5px;
+}
+.Comment-heading{
+    display: block;
+  
+/* background-color: black; */
+}
+
+.Comment-heading  h1{
+    display: inline-block;
+    width: 30vw;
+/* width: 50px; */
+padding-left: 10px;
+/* margin: 0px auto; */
+
+}
+.textboxcontainer{
+grid-row: 3;
+
+
+}
+.userinfo{
+    display: inline-block;
+    grid-column: 3/span 2;
+    grid-row:2/span 3;
+    align-self: flex-start;
+    background-color:cornflowerblue;
+    border-radius: 8px;
+    padding-left: 20px;
+    width: 40vw;
+    height: 25vh;
+/* transform: translateY(-100px); */
+}
+.userinfo .span1{
+    font-style: oblique;
+    font-weight: 900;
+    font-size: 1em;
+}
+.ratesus{
+   grid-row: 1/span 2;
+   grid-column: 4/span 2 ;
+   justify-self: end; 
+align-self: center;
+}
+.complain{
+    grid-row: 1/span 2;
+    grid-column: 4/span 2 ;
+    justify-self: end; 
+    align-self: flex-end;
+    
+}
+
+.textboxcontainercomplain{
+    grid-row: 2/span 2;
+    grid-column: 3/span 3 ;
+    justify-self: start; 
+    align-self: flex-start;
+    margin-left: -50px;
+    
+}
+.textboxcontainercomplain textarea{
+    height: 5vh;
+    width: 25vw;
+border-radius: 10px;
+}
+.tocenter{
+    display: flex;
+}
+.commentspan{
+/* transform: translateX(10px); */
+/* margin-left: 60px; */
+padding-left: 20px;
+
+}
+.ratewindow,.requestfilluppage{
+visibility:hidden;
+position: absolute;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+bottom: 40%;
+left: 45%;
+background-color: rgb(47, 46, 46);
+width: 20vw;
+height: 20vh;
+border-radius: 10px;
+}
+/* .ratewindow:hover{
+    cursor: pointer;
+} */
+.ratewindow2{
+    display: flex;
+    margin-bottom: 20px;
+}
+.ratewindow2 span{
+    font-size: 130%;
+
+}
+.ratewindow, .crosssign{
+    /* transform: translateX(200%); */
+    position: absolute;
+    font-size: 0.9em;
+    right: 0;
+    /* padding-left: 10%; */
+    /* justify-self: flex-end; */
+    
+}
+.crosssign{
+    top:0;
+}
+.crosssign:hover{
+
+cursor:pointer;
+
+}
+
+.ratestars:hover{
+    cursor: pointer;
+    font-size: large;
+}
+
+.requestfilluppage .crosssign{
+    position: absolute;
+    font-size: 0.9em;
+    top: 0;
+    right: 0;
+}
+
+.requestfilluppage {
+width: 25vw;
+position:absolute-relative;
+}
+.requestfilluppage .inputtoenterdays{
+width: 100%;
+padding-top: 5px;
+align-self: flex-start;
+/* text-align:right; */
+padding-left: 20px;
+margin-bottom: 10px;
+
+}
+.requestbox{
+    position: absolute;
+    right: 0;
+    bottom: -45px;
+    display: inline-flex;
+    /* color:aliceblue;     */
+    flex-direction: column;
+text-align: center;
+    height: 4vh;
+    width: 3vw;
+    background-color: rgb(10, 10, 10);
+    background-size: cover;
+    color: aliceblue;
+    /* padding-right: 2px; */
+    box-sizing:border-box;
+}
+    .requestbox p{
+        margin-bottom: -16px;
+        display: inline;
+        letter-spacing: -4px;
+        font-weight: 900;
+        
+
+        
+        
+    }
+    .requestbox:hover{
+        background-color: brown;
+    cursor: pointer;
+
+    }
+    .requestbox .totalrequest{
+        font-size: 0.6em;
+        text-align: left;
+        /* margin-bottom: ; */
+        padding-bottom: 2px;
+    }
+.requestdropdown{
+    display: inline-flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+height: 20vh;
+width: 20vw;
+background-color: aliceblue;
+position: absolute;
+bottom: -10px;
+right: -200px;
+transition: 1s;
+}
+.eachrequest{
+    font-size: 1vw;
+}
+
+.requestbutton{
+    height: 3vh;
+    width: 3.3vw;
+    font-size: 1vw;
+    margin-right: 3px;
+}
+
+
+.Alert{
+    visibility: hidden;
+    position: absolute;
+    background-color: rgb(41, 41, 41);
+display: flex;
+width: 15vw;
+height: 15vh;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+top: 40%;
+left: 40%;
+border-radius: 8px;
+}
+.Alert button{
+    width: 50%;
+justify-self: center;
+border-radius: 9px;
+color: white;
+background-color: blue;
+}

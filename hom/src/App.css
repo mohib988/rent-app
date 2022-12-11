@@ -1,0 +1,64 @@
+html{
+margin: 0;
+padding: 0;
+    /* background-image: linear-gradient(0deg,rgba(53, 53, 53,0.5) 10%,rgba(148, 146, 146, 0.3) 80%)  ;
+    /* height:max-content; */
+    /* background-repeat: no-repeat; */
+    /* min-height:100% ; */
+    /* background-blend-mode: multiply; */ 
+    /* background-image: -webkit-linear-gradient(90deg,rgb(48, 48, 48),rgba(37, 74, 81, 0.918), rgb(190, 155, 109) 100%  );  */
+    transition: 10s;
+ animation: bg-now 10s steps(50)  infinite ;
+  /* height: fit-content; */
+/* animation: name duration timing-function delay iteration-count direction fill-mode; */
+overflow-x: hidden;
+}
+
+
+@keyframes bg-now {
+  0%{
+    background-image: -webkit-linear-gradient(0deg,rgb(48, 48, 48),rgba(37, 74, 81, 0.918), rgb(190, 155, 109) 100%  );
+    
+  }
+  10%{
+    background-image: -webkit-linear-gradient(10deg,rgb(48, 48, 48),rgba(37, 74, 81, 0.918), rgb(190, 155, 109) 100%  );
+    
+  }
+  20%{
+    background-image: -webkit-linear-gradient(20deg,rgb(48, 48, 48),rgba(37, 74, 81, 0.918), rgb(190, 155, 109) 100%  );
+    
+  }
+  30%{
+    background-image: -webkit-linear-gradient(30deg,rgb(48, 48, 48),rgba(37, 74, 81, 0.918), rgb(190, 155, 109) 100%  );
+    
+  }
+  40%{
+    background-image: -webkit-linear-gradient(40deg,rgb(48, 48, 48),rgba(37, 74, 81, 0.918), rgb(190, 155, 109) 100%  );
+    
+  }
+  50%{
+    background-image: -webkit-linear-gradient(50deg,rgb(48, 48, 48),rgba(37, 74, 81, 0.918), rgb(190, 155, 109) 100%  );
+    
+  }
+  60%{
+    background-image: -webkit-linear-gradient(60deg,rgb(48, 48, 48),rgba(37, 74, 81, 0.918), rgb(190, 155, 109) 100%  );
+    
+  }
+  70%{
+    background-image: -webkit-linear-gradient(70deg,rgb(48, 48, 48),rgba(37, 74, 81, 0.918), rgb(190, 155, 109) 100%  );
+    
+  }
+  80%{
+    background-image: -webkit-linear-gradient(80deg,rgb(48, 48, 48),rgba(37, 74, 81, 0.918), rgb(190, 155, 109) 100%  );
+    
+  }
+  90%{
+    background-image: -webkit-linear-gradient(90deg,rgb(48, 48, 48),rgba(37, 74, 81, 0.918), rgb(190, 155, 109) 100%  );
+    
+  }
+  100%{
+    background-image: -webkit-linear-gradient(50deg,rgb(48, 48, 48),rgba(37, 74, 81, 0.918), rgb(190, 155, 109) 100%  );
+    
+  }
+  
+}

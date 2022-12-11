@@ -1,0 +1,42 @@
+
+
+.Signuppage .error1{
+    align-self: flex-start;
+    height: 3px; 
+margin-top: -10px;
+    /* margin-bottom: 100px; */
+ 
+}
+.label1{
+justify-self: center;
+}
+
+.selection{
+    display: inline;
+    margin: 0px;
+/* margin-top: -20px; */
+    justify-self: center;
+}
+.selection label{
+font-size: 0.5em;
+
+
+
+}
+
+.error1{
+    display: inline;
+    font-size: 0.5em;
+    justify-self: center;
+    
+    margin-top: -20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    transform: translateY(-40px);
+    /* margin: -10px 10px; */
+    
+}
+.uploadbtn{
+    transform: translateY(-40px);
+
+}

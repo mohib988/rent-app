@@ -1,0 +1,28 @@
+.overall{
+    display: flex;
+    flex-direction: column;
+}
+.shortvehicles,.shortelectronics,.shorthouses,.shortsports,.shortothers{
+        display: flex;
+        width: 98vw;
+        flex-wrap: wrap;
+        height:fit-content;
+        justify-content: space-evenly;
+        overflow-x: auto;
+    
+}
+.topproduct{
+margin: auto;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color:rgb(164, 160, 160);
+background-color: rgb(15, 10, 3);
+
+font-size: 3vw;
+}
+
+.overall h1{
+font-size: 2vw;
+background-color: rgb(95, 115, 108);
+text-shadow: 1px 1px 6px rgb(191, 191, 191);
+border-radius: 4px;
+}

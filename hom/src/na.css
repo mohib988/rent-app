@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Raleway:ital,wght@1,100&display=swap');
+
+*{
+margin:0;
+padding: 0;
+}
+/* background-color:black ; */
+
+.outer{
+    /* position: top; */
+    position: sticky;
+    width: 100vw;
+    height:5.3vh;
+    object-fit: contain;
+    display: flex;
+    z-index: 10;
+    top: 0;
+    /* margin-top: 1px; */
+    background:linear-gradient(to right,rgba(88, 87, 87, 0.912) 5%,rgba(38, 37, 37,0.5) 80%);
+    color: aliceblue;    
+    align-items: center;
+    border-radius: 2% / 50%;
+}
+.outer .img-src{
+    width: 20vw;
+    font-family: 'Fascinate', cursive;
+    font-size: 1.5em;
+    color:black;
+    
+
+}
+
+.outer .img-src:hover{
+    cursor: pointer;
+
+}
+
+.input-text{
+    /* margin-top:24px ; */
+    display:flex;
+    flex: 1;
+    width: 70vw;
+    justify-content: center;
+    align-items: center; 
+    color: aliceblue;   
+    position: relative;
+
+    
+}
+
+.input-text input{
+    height: 1.5rem;
+    border-radius: 10px ;
+    flex: 1;
+    color: rgb(210, 210, 210);
+    font-size: 1rem;
+    border: 3px groove rgb(32, 32, 32);
+    font-family: 'Raleway', sans-serif;
+    padding: auto auto;
+    /* width: 100%; */
+    background-color: rgb(45, 45, 45);
+}
+
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 45vw;
+    background-color: transparent;
+    left: 0;
+    height: 30vh;
+    overflow: hidden auto;
+    top: 2.2rem;
+    border-radius: 10px;
+    
+}
+.dropdown-row{
+    width: 44vw;
+
+    background-color: rgb(51, 52, 53);
+    color: white;
+    padding-left: 5px;
+    padding-top: 0.3vh;
+    height: 3.3vh;
+  
+    border: 2px  solid rgba(0, 0, 0, 0.512);
+
+    border-collapse:collapse;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+.dropdown-row:hover{
+     background-color: rgb(131, 140, 148);
+     cursor: pointer;
+}
+
+.input-text input::placeholder{
+    color: rgb(140, 140, 140);
+    font-family: 'Raleway', sans-serif;
+    font-size:1.2 em;
+    font-weight: 500;
+    padding: auto auto;
+    background-color: rgb(58, 58, 58);
+    margin: auto auto;
+}
+.search-tag{
+    height: 20px;
+    padding: auto auto;
+    margin-bottom:20px;
+    font-size: 1.5em;
+    width: 5vw;
+}
+.search-tag:hover{
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+
+
+
+.card{
+    width: 30vw;
+    
+}
+.cards{
+    display: flex;
+    font-size: 100%;
+    justify-content: space-evenly;
+}
+.one{
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    flex-direction: column;
+}
+.one:hover{
+    cursor: pointer;
+
+}
+span:first-child{
+    margin-left:-13px;
+    font-size: 60%;
+}
+
+.signuplink{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+/* .signuplink:hover{
+    cursor: pointer;
+
+} */
+
+.cart{
+    transform: translateY(-4px);
+    font-size: 1.4em;
+}
